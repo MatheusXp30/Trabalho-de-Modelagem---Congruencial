@@ -22,13 +22,20 @@ int main(){
 		
 		printf("Informe as constantes a, b, m e a semente:\n");
 		printf("\nValor de a: ");
-		scanf("%d",&a);
+		scanf("%d",&a); //a = 1 + 4k
 		printf("\nValor de b: ");
-		scanf("%d",&b);
+		scanf("%d",&b); // b = número ímpar
 		printf("\nValor de m: ");
-		scanf("%d",&m);
+		scanf("%d",&m); // m = 2^g   É o máximo que os valores podem alcançar
 		printf("\nValor da semente: ");
 		scanf("%d",&semente);
+		
+		/* 
+		bons exemplos:
+		a = 11, b =  0, m = 16, X0 = 7
+		a = 34, b = 91, m = 78, X0 = 194
+		a = 33, b = 5, m = 64, X0 = 6
+		*/
 		
 		system("cls");
 		
